@@ -32,6 +32,11 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
+или
+```bash
+docker build -t test-flask .
+docker run -p 5000:5000 test-flask
+```
 
 Откройте браузер и перейдите по адресу:  
 👉 http://localhost:5000
